@@ -1,0 +1,43 @@
+[06:38:38] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:38:38] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:38:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:38:38] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:38:38] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:38:38] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:38:38] [main/INFO]: Reloading ResourceManager: Default
+[06:38:39] [Worker-Main-5/INFO]: Loaded 7 recipes
+[06:38:39] [Worker-Main-5/INFO]: Loaded 927 advancements
+[06:38:40] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[06:38:40] [Server thread/INFO]: Loading properties
+[06:38:40] [Server thread/INFO]: Default game type: SURVIVAL
+[06:38:40] [Server thread/INFO]: Generating keypair
+[06:38:40] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:38:41] [Server thread/INFO]: Using epoll channel type
+[06:38:41] [Server thread/INFO]: Preparing level "world"
+[06:38:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:38:42] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:42] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:42] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:42] [Server thread/INFO]: Preparing spawn area: 0%
+[06:38:43] [Server thread/INFO]: Time elapsed: 1873 ms
+[06:38:43] [Server thread/INFO]: Done (1.933s)! For help, type "help"
+[06:40:20] [User Authenticator #1/INFO]: UUID of player Taebak420 is b8edfaec-927d-467c-bc88-46c341f11778
+[06:40:20] [Server thread/INFO]: Taebak420[/178.2.91.123:63915] logged in with entity id 224 at (-103.60378231841449, 69.0, -232.7305559897704)
+[06:40:20] [Server thread/INFO]: Taebak420 joined the game
+[06:41:37] [Server thread/WARN]: Taebak420 was kicked for floating too long!
+[06:41:37] [Server thread/INFO]: Taebak420 lost connection: Flying is not enabled on this server
+[06:41:37] [Server thread/INFO]: Taebak420 left the game
+[06:41:41] [User Authenticator #2/INFO]: UUID of player Taebak420 is b8edfaec-927d-467c-bc88-46c341f11778
+[06:41:41] [Server thread/INFO]: Taebak420[/178.2.91.123:63932] logged in with entity id 625 at (-29.104606154273625, 119.20000004768372, -257.84100951218613)
+[06:41:41] [Server thread/INFO]: Taebak420 joined the game
+[06:41:45] [Server thread/WARN]: Taebak420 was kicked for floating too long!
+[06:41:45] [Server thread/INFO]: Taebak420 lost connection: Flying is not enabled on this server
+[06:41:45] [Server thread/INFO]: Taebak420 left the game
+[06:41:50] [User Authenticator #3/INFO]: UUID of player Taebak420 is b8edfaec-927d-467c-bc88-46c341f11778
+[06:41:50] [Server thread/INFO]: Taebak420[/178.2.91.123:63937] logged in with entity id 658 at (-29.104606154273625, 119.20000004768372, -257.84100951218613)
+[06:41:50] [Server thread/INFO]: Taebak420 joined the game
+[06:42:49] [Server thread/INFO]: <Taebak420> lol
+[06:42:53] [Server thread/INFO]: <Taebak420> where is everyone
+[06:43:46] [Server thread/INFO]: Taebak420 lost connection: Disconnected
+[06:43:46] [Server thread/INFO]: Taebak420 left the game
+[06:47:59] [Server thread/INFO]: There are 0 of a max of 20 players online: 

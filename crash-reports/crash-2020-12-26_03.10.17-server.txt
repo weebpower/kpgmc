@@ -1,0 +1,48 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 12/26/20 3:10 AM
+Description: Exception in server tick loop
+
+java.lang.OutOfMemoryError: Java heap space
+	at java.lang.Object.clone(Native Method)
+	at pw.<init>(SourceFile:52)
+	at zs.a(SourceFile:1092)
+	at zs.a(SourceFile:779)
+	at zs.a(SourceFile:902)
+	at zs.a(SourceFile:1024)
+	at aae.c(SourceFile:477)
+	at aag.o(SourceFile:933)
+	at aag.f(SourceFile:819)
+	at aag.c(SourceFile:798)
+	at acu.a(SourceFile:224)
+	at aba.c(SourceFile:113)
+	at aba.b(SourceFile:65)
+	at nd.a(SourceFile:228)
+	at aax.c(SourceFile:173)
+	at net.minecraft.server.MinecraftServer.b(SourceFile:882)
+	at zg.b(SourceFile:312)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:811)
+	at net.minecraft.server.MinecraftServer.w(SourceFile:670)
+	at net.minecraft.server.MinecraftServer.a(SourceFile:257)
+	at net.minecraft.server.MinecraftServer$$Lambda$3222/23488862.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.4
+	Minecraft Version ID: 1.16.4
+	Operating System: Windows 10 (x86) version 10.0
+	Java Version: 1.8.0_271, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) Client VM (mixed mode, sharing), Oracle Corporation
+	Memory: 232840 bytes (0 MB) / 259522560 bytes (247 MB) up to 259522560 bytes (247 MB)
+	CPUs: 4
+	JVM Flags: 0 total; 
+	Player Count: 2 / 20; [aah['aolifurin'/274, l='ServerLevel[world]', x=266.47, y=62.00, z=-169.47], aah['boatsyyy'/487, l='ServerLevel[world]', x=232.50, y=64.00, z=-211.50]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
