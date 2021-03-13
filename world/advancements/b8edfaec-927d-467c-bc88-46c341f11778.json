@@ -161,9 +161,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2021-03-07 03:39:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2020-12-31 06:42:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2021-03-07 03:39:39 +0000"
     },
     "done": true
   },
@@ -504,6 +516,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2021-03-07 03:39:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_helmet": {
     "criteria": {
       "has_iron_ingot": "2021-01-04 03:19:44 +0000"
@@ -613,6 +631,7 @@
       "minecraft:taiga": "2020-12-31 06:24:34 +0000",
       "minecraft:taiga_hills": "2020-12-31 06:25:19 +0000",
       "minecraft:birch_forest": "2020-12-31 06:03:47 +0000",
+      "minecraft:dark_forest": "2021-03-07 03:41:19 +0000",
       "minecraft:river": "2020-12-31 06:23:25 +0000",
       "minecraft:birch_forest_hills": "2020-12-31 06:03:56 +0000",
       "minecraft:wooded_hills": "2020-12-31 06:00:03 +0000",
@@ -870,6 +889,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2021-03-07 03:39:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
       "has_planks": "2020-12-31 06:30:51 +0000"
@@ -984,6 +1009,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2021-03-07 03:39:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_mutton": {
     "criteria": {
       "has_mutton": "2020-12-31 06:06:39 +0000"
@@ -1002,5 +1033,5 @@
     },
     "done": true
   },
-  "DataVersion": 2584
+  "DataVersion": 2586
 }

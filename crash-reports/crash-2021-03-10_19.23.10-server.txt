@@ -1,0 +1,64 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 3/10/21, 7:23 PM
+Description: Exception in server tick loop
+
+java.util.concurrent.CompletionException: u: Exception generating new chunk
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:314)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:319)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1155)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478)
+	at zu.b(SourceFile:58)
+	at aoe.e(SourceFile:94)
+	at aoe.a(SourceFile:137)
+	at aoe.run(SourceFile:105)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1429)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: u: Exception generating new chunk
+	at zs.a(SourceFile:579)
+	at com.mojang.datafixers.util.Either$Left.map(Either.java:38)
+	at zs.a(SourceFile:562)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	... 11 more
+Caused by: java.util.ConcurrentModificationException
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1225)
+	at csw.b(SourceFile:64)
+	at csw.a(SourceFile:54)
+	at crn$a.a(SourceFile:222)
+	at crn$a.<init>(SourceFile:208)
+	at crn.a(SourceFile:187)
+	at crn.a(SourceFile:127)
+	at crm$a.a(SourceFile:41)
+	at crm$a.a(SourceFile:29)
+	at cla.a(SourceFile:261)
+	at ciw.a(SourceFile:35)
+	at cfy.a(SourceFile:278)
+	at cfy.a(SourceFile:267)
+	at cga.d(SourceFile:51)
+	at cga.a(SourceFile:219)
+	at zs.a(SourceFile:568)
+	... 14 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Linux (amd64) version 5.10.0-4-amd64
+	Java Version: 15.0.2, Debian
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Debian
+	Memory: 1115503872 bytes (1063 MB) / 2147483648 bytes (2048 MB) up to 2147483648 bytes (2048 MB)
+	CPUs: 4
+	JVM Flags: 2 total; -Xmx2048M -Xms2048M
+	Player Count: 2 / 10; [aah['Sweepy00'/277, l='ServerLevel[world]', x=4112.57, y=77.00, z=-5648.01], aah['edeak'/530, l='ServerLevel[world]', x=4113.62, y=77.00, z=-5639.43]]
+	Data Packs: vanilla
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
